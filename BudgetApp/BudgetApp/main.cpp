@@ -1,6 +1,8 @@
-// Updated on September 30, 2016 by Osato-san and Vaibhav
+// Updated on October 14, 2016
 
 #include <iostream>
+#include <string>
+#include <cstdlib>
 using namespace std;
 
 class reader {
@@ -50,7 +52,7 @@ class reader {
 
 int main() {
     string ans, name;
-    double income, foodExp, rentExp = 0, electricExp = 0, waterExp, totalExp, savings, utilitiesExp = 0, loanExp = 0, tuitionExp = 0, bookExp = 0, lifeInsurance = 0, healthInsurance = 0, petrolExpenditure = 0, taxiExpenditure = 0, carInsurance = 0;
+    double income, foodExp, rentExp = 0, electricExp = 0, waterExp = 0, totalExp, savings, utilitiesExp = 0, loanExp = 0, tuitionExp = 0, bookExp = 0, lifeInsurance = 0, healthInsurance = 0, petrolExpenditure = 0, taxiExpenditure = 0, carInsurance = 0;
     bool isRentComposite = false;
     reader input;
     cout << "Hello! What is your name?" << endl;
